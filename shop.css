@@ -1,0 +1,14 @@
+.container{
+    text-align: center;
+}
+img{
+    height: auto;
+    width: 150px;
+    margin: 14px;
+}
+.prix{
+
+}
+.container:hover .prix{
+    opacity: 1;
+}
