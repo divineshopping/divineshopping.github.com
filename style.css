@@ -37,4 +37,7 @@ nav li{
     font-size: 40px;
     font-family: 'Times New Roman', Times, serif;   
 }
+a{
+    color: rgb(27, 27, 39);
+}
 

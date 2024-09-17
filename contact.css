@@ -1,0 +1,28 @@
+body{
+    background-color: black;
+}
+div{
+    text-align:center;
+}
+.c1{
+    display: inline;
+    height: 42px;
+    width: 42px;
+    border: solid ;
+    border-radius: 50%;
+}
+.c2{
+    border: solid;
+    border-radius: 30%;
+    height: 400px;
+    width: 200px;
+}
+.p1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: white;
+}
+.p2{
+    font-size: 15px;
+    color: white;
+}
