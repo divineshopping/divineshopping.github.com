@@ -1,20 +1,12 @@
-.container{
-    text-align: center;
-}
-img{
-    height: auto;
-    width: 150px;
-    margin: 14px;
-}
-.prix{
-
-}
-.container:hover .prix{
-    opacity: 1;
-}
-body{ 
-    background-color:;
+body{
+    background-color: rgb(221, 221, 221);
 }
 a{
-    color: black;
+    color: rgb(2, 76, 88);
+}
+img{
+    display: inline;
+    margin: 8px;
+    height: 150px;
+    width: 125px;
 }
