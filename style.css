@@ -10,7 +10,6 @@ p{
     display: inline;
     margin: 90px;
     font-family: 'Times New Roman', Times, serif;
-    font-size: 18px;
 }
 .s{
     background-color: orange;
@@ -22,7 +21,6 @@ img{
     height: 240px;
     width: 220px;
     margin: 25px;
-    padding: 30px;
 }
 .p3{
     text-align: center;
