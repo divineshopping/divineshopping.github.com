@@ -4,6 +4,8 @@
 p{
     display: inline;
     margin: 90px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
 }
 .s{
     background-color: orange;
@@ -12,9 +14,10 @@ p{
     display: inline;
 }
 img{
-    height: 500px;
-    width: 400px;
-    margin: 20px;
+    height: 240px;
+    width: 220px;
+    margin: 25px;
+    padding: 30px;
 }
 .p3{
     text-align: center;
@@ -22,4 +25,6 @@ img{
 }
 a{
     color: rgb(40, 91, 107);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 19px;
 }
