@@ -20,7 +20,7 @@ p{
 img{
     height: 350px;
     width: 300px;
-    margin: 30px;
+    margin: 60px;
 }
 .p3{
     text-align: center;
@@ -30,4 +30,9 @@ a{
     color: rgb(40, 91, 107);
     font-family: 'Times New Roman', Times, serif;
     font-size: 38px;
+}
+h3{
+    font-style: italique;
+    font-family: 'Times new roman';
+    
 }
