@@ -1,5 +1,9 @@
+body{
+    text-align:center;
+}
 .s1{
     background-color: rgb(153, 153, 153);
+    text-align:left;
 }
 p{
     display: inline;
