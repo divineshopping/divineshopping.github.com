@@ -4,6 +4,7 @@ body{
 .s1{
     background-color: rgb(153, 153, 153);
     text-align:left;
+    font-size:24px;
 }
 p{
     display: inline;
