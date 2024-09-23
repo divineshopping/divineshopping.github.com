@@ -1,15 +1,19 @@
+h3{
+    font-style: italic;
+    font-family: 'Times New Roman', Times, serif;
+}
 body{
-    text-align:center;
+    text-align: center;
 }
 .s1{
     background-color: rgb(153, 153, 153);
-    text-align:left;
-    font-size:40px;
+    text-align: left;
 }
 p{
     display: inline;
     margin: 90px;
     font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
 }
 .s{
     background-color: orange;
@@ -18,9 +22,9 @@ p{
     display: inline;
 }
 img{
-    height: 350px;
-    width: 300px;
-    margin: 60px;
+    height: 100px;
+    width: 90px;
+    margin: 25px;
 }
 .p3{
     text-align: center;
@@ -29,10 +33,5 @@ img{
 a{
     color: rgb(40, 91, 107);
     font-family: 'Times New Roman', Times, serif;
-    font-size: 38px;
-}
-h3{
-    font-style: italic;
-    font-family: 'Times new roman';
-    
+    font-size: 19px;
 }
