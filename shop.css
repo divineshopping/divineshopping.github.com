@@ -3,9 +3,16 @@ body{
 }
 a{
     color: rgb(2, 76, 88);
+    font-style:'times new roman';
+    font-size:16px;
 }
 img{
     height: 100px;
     width: 90px;
     margin: 8px;
+}
+h4{
+    font-size:18px;
+    font-style:italic;
+    font-family:'times new roman';
 }
