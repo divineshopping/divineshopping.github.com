@@ -1,49 +1,177 @@
-<!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <title>Divine Business</title>
+    <title>Diva Store</title>
 </head>
+
 <body>
-    <section class="s1">
-        <h3>Divine business</h3>
-               <nav>
-               <ul>
-                   <li><a href="shop.html"><b>Boutique</b></a></li>
-                   <li><a href="contact .html"><b>contact</b></a></li>
-               </ul>
-           </nav>
-           <div class="s">
-       <marquee behavior="src" direction="left">
-           <p>Bonne qualitée</p>
-           <p>Bon prix</p>
-           <p>Articles neufs</p>
-       </marquee>
-           </div>
-       </section>
-       <br><br>
-       <section class="s2">
-           <div>
-               <img src="s11.jpg" alt="mon article">
-               <img src="s12.jpg" alt="mon article">
-               <img src="s20.jpg" alt="mon article"><br><br>
-               <img src="s21.jpg" alt="mon article">
-               <img src="s29.jpg" alt="mon article">
-               <img src="s36.jpg" alt="mon article"><br><br>
-               <img src="s43.jpg" alt="mon article">
-               <img src="s15.jpg" alt="mon article">
-               <img src="s17.jpg" alt="mon article"><br><br>
-           </div>
-       </section>
-       <section>
-           <div class="s3">
-           <br>
-            <br>
-           <p class="p3"> <button><a href="shop.html"><b> Plus d'articles </b></a></button></p>
-           </div>
-       </section>
-       <br><br><br><hr>
+    <nav id="nav">
+        <div class="navTop">
+            <div class="navItem">
+                <h2>Diva Store</h2>
+            </div>
+            <div class="navItem">
+                <span class="limitedOffer"></span>
+            </div>
+        </div>
+        <div class="navBottom">
+            <h3 class="menuItem">T-SHORTS</h3>
+            <h3 class="menuItem">CHEMISES</h3>
+            <h3 class="menuItem">JEANS</h3>
+            <h3 class="menuItem">TISSUS</h3>
+            <h3 class="menuItem">CHAUSSURES</h3>
+        </div>
+    </nav>
+    <div class="slider">
+        <div class="sliderWrapper">
+            <div class="sliderItem">
+                <img src="b1.jpg" alt="" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle"></br> </br> </h1>
+                <h2 class="sliderPrice"></h2>
+                <a href="shop.html">
+                    <button  class="buyButton">PLUS DES PRODUITS!</button>
+                </a>
+            </div>
+            
+            <div class="sliderItem">
+                <img src="b2.jpg" alt="" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle">BLAZER</br> NEW</br> SEASON</h1>
+                <h2 class="sliderPrice"></h2>
+                <a href="shop.html">
+                    <button class="buyButton">PLUS DES PRODUITS!</button>
+                </a>
+            </div>
+            <div class="sliderItem">
+                <img src="b3.jpg" alt="" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle"></br> </br> </h1>
+                <h2 class="sliderPrice"></h2>
+                <a href="shop.html">
+                    <button  class="buyButton">PLUS DES PRODUITS!</button>
+                </a>
+            </div>
+            <div class="sliderItem">
+                <img src="b4.jpg" alt="" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle"></br> </br> </h1>
+                <h2 class="sliderPrice"></h2>
+                <a href="shop.html">
+                    <button  class="buyButton">PLUS DES PRODUITS!</button>
+                </a>
+            </div>
+            <div class="sliderItem">
+                <img src="b5.jpg" alt="" class="sliderImg">
+                <div class="sliderBg"></div>
+                <h1 class="sliderTitle"></br> </br> </h1>
+                <h2 class="sliderPrice"></h2>
+                <a href="shop.html">
+                    <button  class="buyButton">PLUS DES PRODUITS!</button>
+                </a>
+            </div>
+            
+        </div>
+    </div>
+   
+    <div class="features">
+        <div class="feature">
+            <img src="shipping.png" alt="" class="featureIcon">
+            <span class="featureTitle">Shopping libre</span>
+            <span class="featureDesc"> Vous etes en liberté de choisir nos articles</span>
+        </div>
+        <div class="feature">
+            <img class="featureIcon" src="return.png" alt="">
+            <span class="featureTitle">Garantie</span>
+            <span class="featureDesc">Satisfait ou rembourser.</span>
+        </div>
+        <div class="feature">
+            <img class="featureIcon" src="gift.png" alt="">
+            <span class="featureTitle">Moyens de paiements</span>
+            <span class="featureDesc">Nous acceptons tous moyens de paiements mobiles.</span>
+        </div>
+        <div class="feature">
+            <img class="featureIcon" src="contact.png" alt="">
+            <span class="featureTitle">Nous contacter!</span>
+            <span class="featureDesc">via email Facebook Instagram et whatsApp.</span>
+        </div>
+    </div>
+
+    <div class="product" id="product">
+        <img src="air.png" alt="" class="productImg">
+        <div class="productDetails">      
+            <p class="productDesc"></p>
+            <div class="colors">
+                <div class="color"></div>
+                <div class="color"></div>
+            </div>
+            <button class="productButton"><a href="https://wa.me/+243816261811">COMMANDER!</a></button>
+        </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footerLeft">
+            <div class="footerMenu">
+                <h1 class="fMenuTitle">A PROPOS DE NOUS</h1>
+                <ul class="fList">
+                    <li class="fListItem"></li>
+                    <li class="fListItem"><a href="contact.html">Contacts</a></li>
+                    <li class="fListItem"></li>
+                    <br>
+                    <li class="fListItem"></li>
+                    <li class="fListItem"><a href="shop.html">Boutique</a></li>
+                </ul>
+            </div>
+            <div class="footerMenu">
+                <h1 class="fMenuTitle"></h1>
+                <ul class="fList">
+                    <li class="fListItem"></li>
+                    <li class="fListItem"></li>
+                    <li class="fListItem"></li>
+                    <li class="fListItem"></li>
+                    <li class="fListItem"></li>
+                </ul>
+            </div>
+            <div class="footerMenu">
+                <h1 class="fMenuTitle"></h1>
+                <ul class="fList">
+                    <li class="fListItem"></li>
+                    <li class="fListItem"></li>
+                    <li class="fListItem"></li>
+                    <li class="fListItem"></li>
+                    <li class="fListItem"></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footerRight">
+            <div class="footerRightMenu">
+                <h1 class="fMenuTitle"></h1>
+                <div class="fMail">
+                    <button class="fButton"></button>
+                </div>
+            </div>
+            <div class="footerRightMenu">
+                <h1 class="fMenuTitle"></h1>
+                <div class="fIcons">
+                    <a href="http://www.facebook.com/mesianedivine.muks"><img src="./img/facebook.png" alt="" class="fIcon"></a>
+                    <a href="#"><img src="./img/twitter.png" alt="" class="fIcon"></a>
+                    <a href="#"><img src="./img/instagram.png" alt="" class="fIcon"></a>
+                    <a href="https://wa.me/+243816261811"><img src="./img/whatsapp.png" alt="" class="fIcon"></a>
+                </div>
+            </div>
+            <div class="footerRightMenu">
+                <span class="copyright">@codingtuto. All rights reserved. 2022.</span>
+            </div>
+        </div>
+    </footer>
+    <script src="app.js"></script>
 </body>
+
 </html>
