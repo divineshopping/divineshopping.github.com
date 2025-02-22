@@ -5,7 +5,6 @@ body{
 a{
     color: rgb(255, 255, 255);
     margin :30px;
-    align-items: center;
 }
 img{
     border: solid;
@@ -13,9 +12,4 @@ img{
     height: 500px;
     width: 300px;
     margin: 30px;
-}
-.s1{
-    
-    color: white;
-    padding: 20px 50px;
 }
