@@ -9,8 +9,9 @@ nav{
 
 img{
     align-items:center;
-    height:140px;
-    width:140px;
+    height:280px;
+    width:280px;
     border:solid;
     border-radius:30px;
+    margin:20px;
 }
