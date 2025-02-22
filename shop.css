@@ -2,3 +2,12 @@ body{
     background-color: rgb(79, 104, 103);
     font-family: "Lato", sans-serif;
 }
+nav{
+    margin: 30px;
+}
+
+img{
+    align-items:center;
+    height:400px;
+    wight:300px;
+}
