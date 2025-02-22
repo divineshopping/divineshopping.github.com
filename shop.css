@@ -10,7 +10,6 @@ img{
     align-items:center;
     height:300px;
     width:100px;
-    border-raduis:20px;
-    border:solid, black;
-    text-align:center;
+    border-raduis:30%;
+    border:solid;
 }
