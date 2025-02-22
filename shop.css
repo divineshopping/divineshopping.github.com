@@ -8,8 +8,9 @@ nav{
 
 img{
     align-items:center;
-    height:300px;
-    width:100px;
-    border-raduis:30%;
+    height:500px;
+    width:400px;
     border:solid;
+    border-radius:30px;
+    padding:30px;
 }
