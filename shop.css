@@ -8,6 +8,9 @@ nav{
 
 img{
     align-items:center;
-    height:400px;
-    wight:300px;
+    height:300px;
+    width:100px;
+    border-raduis:20px;
+    border:solid, black;
+    text-align:center;
 }
